@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(33, 4, 114);
+    color: aliceblue
+    
+}
+
+a {
+    color: rgb(130, 188, 240);
+    font-size: 120%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 180%;
+    color:lightblue;
+}
+
+p {
+    text-align: center: justify;
+    font-size: 120%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    }
