@@ -1,26 +1,59 @@
 body {
     background-color: rgb(33, 4, 114);
-    color: aliceblue
-    
+    color: aliceblue;
+
+}
+
+.logoWave {
+    border-radius: 15px
+}
+
+.nav {
+    color:lightblue;
+    border: solid:1px;
+    border-radius: 5px;
 }
 
 a {
     color: rgb(130, 188, 240);
     font-size: 120%;
+
 }
 
 h1 {
     text-align: center;
     font-size: 180%;
-    color:lightblue;
+    color: lightblue;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.image {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.imagePair {
+    display: flex;
+}
+
+.imagePairT {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
 }
 
 p {
     text-align: center: justify;
     font-size: 120%;
+    width: 50%;
+    margin: 0 auto;
+    border: solid 1px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 15px;
 }
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    }
